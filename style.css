@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+
+}
+
+aside {
+    margin: 12rem 4.5rem 6rem 25rem;
+}
+
+aside img {
+    width: 57rem;
+}
+
+aside h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin: 5.5rem 13rem 15rem 15rem;
+}
+
+aside h1 span {
+    color: rgba(255, 86, 120, 1);
+
+}
+
+main {
+    width: 75rem;
+    height: 72rem;
+    top: 85px;
+    left: 486px;
+    border-radius: 12px;
+    border: 0.2rem solid rgba(0, 0, 0, 0.15);
+    flex-shrink: 0;
+
+    margin: 9rem;
+
+
+}
+
+
+
+main h2 {
+    max-width: 43rem;
+    font-size: 3.6rem;
+    margin: 4.4rem 18rem;
+    width: 40rem;
+
+}
+
+main h2 span {
+    color: rgba(255, 86, 120, 1);
+
+}
+
+main .box1 {
+    width: 489px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 2px solid #C0EBF4;
+    background: #35E6E9;
+
+    margin: 10rem 13rem;
+}
+
+.box1_conteudo {
+    width: 240px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin: 0.9rem 12rem;
+
+}
+
+main .box2 {
+    width: 489px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 2px solid #C0EBF4;
+    background: #FF5678;
+    align-items: center;
+    margin: 10rem 13rem;
+}
+
+.box2_conteudo {
+    width: 340px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin: 0.9rem 8rem;
+}
+
+.box3 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 8rem;
+}
+
+.box4 {
+    width: 488px;
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+
+    margin: 0.5rem 8rem 4rem 13rem;
+}
+
+main header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main form {
+    align-items: center;
+    display: grid;
+    margin-left: 9rem;
+    margin-top: 4rem;
+
+}
+
+main form input {
+    width: 48.9rem;
+    height: 5.5rem;
+    flex-shrink: 0;
+
+    border-radius: 1.2rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.15);
+    background: #FFF;
+
+}
+
+main form label {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+main header i{
+    color: #FF5678;
+    margin-left: 40px;
+}
