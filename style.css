@@ -58,10 +58,10 @@ main {
 
 
 main h2 {
-    max-width: 43rem;
+
     font-size: 3.6rem;
-    margin: 4.4rem 18rem;
-    width: 40rem;
+    margin: 4.4rem 15rem;
+    width: 50rem;
 
 }
 
@@ -182,7 +182,19 @@ main form label {
     display: block;
 }
 
-main header i{
+main header i {
     color: #FF5678;
     margin-left: 40px;
 }
+
+main button {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: rgba(53, 230, 233, 1);
+    border: 0;
+    background-color: #FFF;
+}
+
+
+/* Entidades Cadastradas */
